@@ -3,27 +3,27 @@
 class Tachycloud < Formula
   desc "Command-line client for TachyCloud"
   homepage "https://tachy.cloud"
-  version "0.2.0"
+  version "0.3.0"
 
   on_macos do
     on_arm do
-      url "https://get.tachy.cloud/cli/v0.2.0/tachycloud-0.2.0-aarch64-apple-darwin.tar.gz"
-      sha256 "04eeca8cbec3fb84de1a22b993b67f9570eb648347f35c4298e6fefc12c666e7"
+      url "https://get.tachy.cloud/cli/v0.3.0/tachycloud-0.3.0-aarch64-apple-darwin.tar.gz"
+      sha256 "7f39bee10a3b65f707eb26dd0481a7ff6952698824dba9100036a2a15aee1534"
     end
     on_intel do
-      url "https://get.tachy.cloud/cli/v0.2.0/tachycloud-0.2.0-x86_64-apple-darwin.tar.gz"
-      sha256 "03616a45aabb174df70ef546b13b114d128beba903a0d68bb1c57db2a72473ef"
+      url "https://get.tachy.cloud/cli/v0.3.0/tachycloud-0.3.0-x86_64-apple-darwin.tar.gz"
+      sha256 "f9d72a115a1d50320dab900b7a9d9282ccc36bffd12bd73986166090357c6407"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://get.tachy.cloud/cli/v0.2.0/tachycloud-0.2.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "eef722496d7492d8ddfd180f0c82e549357230e5c60efc310a1cdb33396efb7c"
+      url "https://get.tachy.cloud/cli/v0.3.0/tachycloud-0.3.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "ac82ce6b8fc29eef4e660951f80c3dcaab6ace28ce9ad59540910097555acce9"
     end
     on_intel do
-      url "https://get.tachy.cloud/cli/v0.2.0/tachycloud-0.2.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "89991a43731b603398bea208458bdbf5a781437191126537451aacc3127534d9"
+      url "https://get.tachy.cloud/cli/v0.3.0/tachycloud-0.3.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "528ec090f141fb0cb7c54cadbd9da706470cd02f2a000f028ba284990ad2f120"
     end
   end
 
